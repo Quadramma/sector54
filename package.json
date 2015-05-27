@@ -1,0 +1,28 @@
+{
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "EngineeringMode/Grapnel.js": "github:EngineeringMode/Grapnel.js@^0.5.8",
+      "css": "github:systemjs/plugin-css@^0.1.11",
+      "ded/bonzo": "github:ded/bonzo@^2.0.0",
+      "ded/qwery": "github:ded/qwery@^4.0.0",
+      "ded/reqwest": "github:ded/reqwest@^1.1.5",
+      "fat/bean": "github:fat/bean@^1.0.14",
+      "melanke/Watch.JS": "github:melanke/Watch.JS@master",
+      "moment": "github:moment/moment@^2.10.3",
+      "react": "npm:react@^0.14.0-alpha2",
+      "riot": "npm:riot@^2.0.7",
+      "riotjs": "github:muut/riotjs@^2.0.7"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    },
+    "overrides": {
+      "github:twbs/bootstrap@3.3.4": {
+        "main": "dist/css/bootstrap"
+      }
+    }
+  }
+}
