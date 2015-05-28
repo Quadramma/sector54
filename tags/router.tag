@@ -46,4 +46,5 @@
 	riot.route.start() // start again
 	riot.route.exec(onRouteChange)
 	riot.mount(getDefaultTagsConcatened()) //Mount default tags
+	riot.myrouterTag = this
 </router>

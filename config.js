@@ -27,6 +27,7 @@ System.config({
     "fat/bean": "github:fat/bean@1.0.14",
     "melanke/Watch.JS": "github:melanke/Watch.JS@master",
     "moment": "github:moment/moment@2.10.3",
+    "nolanlawson/blob-util": "github:nolanlawson/blob-util@1.1.1",
     "purecss": "npm:purecss@0.6.1-test-2",
     "react": "npm:react@0.14.0-alpha3",
     "github:jspm/nodelibs-assert@0.1.0": {

@@ -10,6 +10,7 @@
       "fat/bean": "github:fat/bean@^1.0.14",
       "melanke/Watch.JS": "github:melanke/Watch.JS@master",
       "moment": "github:moment/moment@^2.10.3",
+      "nolanlawson/blob-util": "github:nolanlawson/blob-util@^1.1.1",
       "purecss": "npm:purecss@^0.6.1-test-2",
       "react": "npm:react@^0.14.0-alpha2"
     },
@@ -21,6 +22,9 @@
     "overrides": {
       "github:muut/riotjs@2.1.0": {
         "main": "lib/riot+compiler"
+      },
+      "github:nolanlawson/blob-util@1.1.1": {
+        "main": "dist/blob-util"
       }
     }
   }

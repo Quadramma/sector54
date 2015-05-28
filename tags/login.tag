@@ -28,13 +28,17 @@
 				        <label for="remember" class="block fit250">
 				            <input id="remember" type="checkbox" > Abrir como nueva ventana
 				        </label>
-				        <button type="submit" class="pure-button pure-button-primary" class="block-center block fit250">Ingresar</button>
+				        <button onclick={login}  class="pure-button pure-button-primary" class="block-center block fit250">Ingresar</button>
 			        </div>
 			    </fieldset>
 			</form>
 	    </div>
 	    <div class="pure-u-1 pure-u-sm-1 pure-u-md-1-3 pure-u-lg-1-3"></div>
 	</div>
+
+	login(){
+		riot.route('home') 		
+	}
 
 	var self = this
 	setTimeout(function(){
